@@ -1,0 +1,42 @@
+.button{
+	&.primary{
+		background-color: $primary-color;
+	}
+
+	&.secondary{
+		background-color: $secondary-color;
+	}
+
+	&.tertiary{
+		background-color: $tertiary-color;
+	}
+}
+
+.btn-prim {
+	background-color: $primary-color;
+	color: $white;
+    padding: 15px 25px;
+	border-radius: 6px;
+	transition: .4s ease;
+	font-size: 20px;
+	font-family: $secondary-font;
+	font-weight: bold;
+
+	@include max-mq($responsive-toggle-breakpoint) {
+		font-size: 18px;
+	}
+	@include max-mq($md) {
+		font-size: 15px;
+	}
+
+	&:hover {
+		background-color: $btn-hover-color;
+	}
+}
+.frm_button_submit {
+	transition: .4s ease;
+	position: absolute;
+	&:hover {
+		background-color: $bullet-color;
+	}
+}

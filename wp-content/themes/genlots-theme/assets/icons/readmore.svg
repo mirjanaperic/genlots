@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="51px" viewBox="0 0 50 51" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 64 (101010) - https://sketch.com -->
+    <title>08E0488F-CD1E-4E83-8D08-C91ACBFCB502</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24.9230769" rx="12"></rect>
+        <filter x="-91.3%" y="-75.9%" width="282.7%" height="275.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.923076923" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="3" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="6.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="UI" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home---hero-dark-2" transform="translate(-88.000000, -2993.000000)">
+            <g id="button-/-secondary-inactive-copy" transform="translate(101.000000, 3002.000000)">
+                <g id="readmore" transform="translate(0.000000, 1.038462)">
+                    <g id="Rectangle-Copy-34">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use stroke="#333366" stroke-width="1.84615385" fill="#333366" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <path d="M16.4378863,11.6771856 L16.4534961,11.6806009 L9.7619528,11.6806009 L11.8655296,9.57194348 C11.9685377,9.46899487 12.0250417,9.32953448 12.0250417,9.18316205 C12.0250417,9.03678963 11.9685377,8.89830505 11.8655296,8.79511249 L11.5382126,8.46756352 C11.4352858,8.36461492 11.2981313,8.30769231 11.1518712,8.30769231 C11.0055298,8.30769231 10.868294,8.36420833 10.7653672,8.46715693 L7.15943304,12.0735296 C7.05609973,12.1768848 6.99959567,12.3145562 7,12.4610099 C6.99959567,12.6082768 7.05609973,12.7460295 7.15943304,12.8492221 L10.7653672,16.45592 C10.868294,16.5587873 11.0054485,16.6153846 11.1518712,16.6153846 C11.2981313,16.6153846 11.4352858,16.558706 11.5382126,16.45592 L11.8655296,16.128371 C11.9685377,16.0255851 12.0250417,15.8883202 12.0250417,15.7419478 C12.0250417,15.5956567 11.9685377,15.4656292 11.8655296,15.3627619 L9.73821296,13.2423134 L16.445366,13.2423134 C16.746748,13.2423134 17,12.9825023 17,12.6812191 L17,12.2179503 C17,11.9166671 16.7392683,11.6771856 16.4378863,11.6771856 Z" id="Path" fill="#FFFFFF" fill-rule="nonzero" transform="translate(12.000000, 12.461538) rotate(-180.000000) translate(-12.000000, -12.461538) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

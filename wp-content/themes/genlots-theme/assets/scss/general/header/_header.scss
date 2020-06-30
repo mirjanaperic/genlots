@@ -1,0 +1,23 @@
+.site-branding {
+	  position: relative;
+
+	  &::after {
+		  position: absolute;
+		  content: '';
+		  height: 4px;
+		  width: 100%;
+		  background-color: $primary-color;
+		  bottom: -34px;
+	  }
+}
+
+.site-title {
+	max-width: 192px;
+	a {
+		max-width: 100%;
+		height: auto;
+	}
+}
+.social-icons-wrapper {
+	display: none;
+}

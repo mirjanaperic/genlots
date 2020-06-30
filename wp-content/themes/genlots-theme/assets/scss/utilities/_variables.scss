@@ -1,0 +1,55 @@
+// Container widths
+$container-width: 1260px;
+$container-narrow-width: 990px;
+
+// Colors
+$primary-color:		#333366;
+$secondary-color:	#2D3141;
+$tertiary-color:	red;
+$white:				#ffffff;
+$black:				#000000;
+$gray:				#aeaeae;
+$bullet-color: 		#727A9D;
+$primary-font-color:#1E1E44;
+$border-color:      #D1D3DE;
+$btn-hover-color:	#4E409E;
+$box-background:    #E2E7F1;
+$input-color: 		#D8DEFF;
+
+// Fonts
+$primary-font: 'Segoe', sans-serif;
+$secondary-font: 'Open Sans', sans-serif;
+
+// Font Sizes
+$font-size-xsmall:	12px;
+$font-size-small:	14px;
+$font-size-base:	16px;
+$font-size-large:	18px;
+$font-size-xlarge:	20px;
+
+// Heading sizes
+$font-size-h1: 52px;
+$font-size-h2: 36px;
+$font-size-h3: 24px;
+$font-size-h4: 20px;
+$font-size-h5: 18px;
+$font-size-h6: 15px;
+
+// Breakpoints
+$mac: 1440px;
+$lt: 1366px;
+$ls: 1280px;
+$lg: 1199px;
+$md: 991px;
+$sm: 767px;
+$mb: 480px;
+$ip: 420px;
+$xs: 350px;
+
+// Navigation config
+$responsive-toggle-breakpoint: $lg;
+$toggle-menu-height: 20px;
+$toggle-menu-width: 25px;
+$toggle-menu-bar-height: 3px;
+$toggle-menu-bar-color: $primary-color;
+$toggle-menu-bar-active-color: transparent;
